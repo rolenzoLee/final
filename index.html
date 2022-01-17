@@ -299,13 +299,15 @@
                 document.getElementById("StartScreen").style.display = "inline";
                 document.getElementById("container").style.display = "none";
                 
-                setTimeout(function(){var name = prompt('Please input your name');},100);
-                //var name = document.getElementById("booktitle").value;//todo
-                var Score = score;
-                //var score = document.getElementById("author").value;//todo
+                setTimeout(function(){var name = prompt('Please input your name');
+				var Score = score;
+               
                 localStorage.setItem(Score, name);
                 difficulityGloabal = 0;
                 loadSearches();
+				},100);
+                
+                
             }
             
             function difficulity(x){
