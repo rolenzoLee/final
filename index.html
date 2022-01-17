@@ -190,20 +190,20 @@
                 
                 if(e.key.toLowerCase() == "w" || e.key.toLowerCase() == "arrowup"){
                     
-                    characterElement.style.top = parseInt(window.getComputedStyle(characterElement).getPropertyValue("top")) - 15 + "px";
+                    characterElement.style.top = parseInt(window.getComputedStyle(characterElement).getPropertyValue("top")) - 30 + "px";
                 }
                 if(e.key.toLowerCase() == "a" || e.key.toLowerCase() == "arrowleft"){
                     
-                    characterElement.style.left = parseInt(window.getComputedStyle(characterElement).getPropertyValue("left")) - 15 + "px";
+                    characterElement.style.left = parseInt(window.getComputedStyle(characterElement).getPropertyValue("left")) - 30 + "px";
                 }
                 if(e.key.toLowerCase() == "s" || e.key.toLowerCase() == "arrowdown"){
                     
-                    characterElement.style.top = parseInt(window.getComputedStyle(characterElement).getPropertyValue("top")) + 15 + "px";
+                    characterElement.style.top = parseInt(window.getComputedStyle(characterElement).getPropertyValue("top")) + 30 + "px";
                     
                 }
                 if(e.key.toLowerCase() == "d" || e.key.toLowerCase() == "arrowright"){
                     
-                    characterElement.style.left = parseInt(window.getComputedStyle(characterElement).getPropertyValue("left")) + 15 + "px";
+                    characterElement.style.left = parseInt(window.getComputedStyle(characterElement).getPropertyValue("left")) + 30 + "px";
                 }
             }
 
@@ -366,7 +366,7 @@
                         document.getElementById("block_2").setAttribute("src", "統神_障礙物.png");
                         document.getElementById("block_3").setAttribute("src", "統神_障礙物.png");
                         document.getElementById("bgm").setAttribute("src","統神端火鍋bgm.mp3");
-                        document.getElementById("over").setAttribute("src","統神端火鍋Over.mp3");
+//                         document.getElementById("over").setAttribute("src","統神端火鍋Over.mp3");
                         document.getElementById("bgm").play();
                         break;
                 }
